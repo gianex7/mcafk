@@ -2,8 +2,8 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'amigosdelmotor.play.hosting', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
-        port: 25652,                // Puerto predeterminado de Minecraft
+        host: 'amigosdelmotor.play.host', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
+        port: 25749,                // Puerto predeterminado de Minecraft
         username: 'FranyerFarias',    // Nombre genÃ©rico del bot/NPC dentro del juego
         version: false              // Autodetecta la versiÃ³n exacta del servidor (1.8 a 1.21+)
     });
